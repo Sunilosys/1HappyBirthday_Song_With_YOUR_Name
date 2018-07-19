@@ -1,0 +1,711 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PauseIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ResumeIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StartOverIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "PlayAudio",
+      "samples": [
+        "play birthday song for {Name}",
+        "play happy birthday song for {Name}",
+        "sing birthday song for {Name}",
+        "sing happy birthday song for {Name}",
+        "play song for {Name}",
+        "for {Name}",
+        "wish happy birthday to {Name}",
+        "birthday song for {Name}",
+        "play birthday song",
+        "play happy birthday song",
+        "sing happy birthday {Name}",
+        "play happy birthday {Name}",
+        "sing happy birthday song {Name}",
+        "play happy birthday song {Name}",
+        "play a birthday song for {Name}",
+        "song for {Name}",
+        "{FirstLetter}  {SecondLetter}  {ThirdLetter}  {FourthLetter} {FifthLetter} {SixthLetter} {SeventhLetter} {EighthLetter} {NinthLetter} {TenthLetter} {EleventhLetter} {TwelfthLetter} {ThirteenthLetter} {FourteenthLetter} {FifteenthLetter} {SixteenthLetter} {SeventeenthLetter} {EighteenthLetter} {NineteenthLetter} {TwentiethLetter}"
+      ],
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": [
+            "play happy birthday song for {Name}",
+            "sing happy birthday song for {Name}",
+            "wish happy birthday to {Name}",
+            "{Name}",
+            "play birthday song for {Name}",
+            "sing birthday song for {Name}",
+            "It's {Name}",
+            "It is {Name}",
+            "It's {Name}'s birthday",
+            "it is {Name}'s birthday",
+            "wish {Name} happy birthday",
+            "My name is {Name}",
+            "It is {Name} birthday"
+          ]
+        },
+        {
+          "name": "FirstLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "SecondLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "ThirdLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "FourthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "FifthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "SixthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "SeventhLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "EighthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "NinthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "TenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "EleventhLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "TwelfthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "ThirteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "FourteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "FifteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "SixteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "SeventeenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "EighteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "NineteenthLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        },
+        {
+          "name": "TwentiethLetter",
+          "type": "ALPHABETS",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "samples": [
+        "Go to settings",
+        "settings",
+        "open settings",
+        "turn {Option} the confirmation dialog",
+        "turn {Option} confirmation dialog",
+        "turn {Option} confirmation",
+        "{Option} confirmation",
+        "{Option} confirmation dialog",
+        "{Option} the confirmation dialog"
+      ],
+      "slots": [
+        {
+          "name": "Option",
+          "type": "DialogSettings",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "ALPHABETS",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "a.",
+            "synonyms": [
+              "A."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "b.",
+            "synonyms": [
+              "B."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "c.",
+            "synonyms": [
+              "C."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "d.",
+            "synonyms": [
+              "D."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "e.",
+            "synonyms": [
+              "E."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "f.",
+            "synonyms": [
+              "F."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "g.",
+            "synonyms": [
+              "G."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "h.",
+            "synonyms": [
+              "H."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "i.",
+            "synonyms": [
+              "I."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "j.",
+            "synonyms": [
+              "J."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "k.",
+            "synonyms": [
+              "K."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "l.",
+            "synonyms": [
+              "L."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "m.",
+            "synonyms": [
+              "M."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "n.",
+            "synonyms": [
+              "N."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "o.",
+            "synonyms": [
+              "O."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "p.",
+            "synonyms": [
+              "P."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "q.",
+            "synonyms": [
+              "Q."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "r.",
+            "synonyms": [
+              "R."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "s.",
+            "synonyms": [
+              "S."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "t.",
+            "synonyms": [
+              "T."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "u.",
+            "synonyms": [
+              "U."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "v.",
+            "synonyms": [
+              "V."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "w.",
+            "synonyms": [
+              "W."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "x.",
+            "synonyms": [
+              "X."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "y.",
+            "synonyms": [
+              "Y."
+            ]
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "z.",
+            "synonyms": [
+              "Z."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DialogSettings",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Yes",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "No",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Enable",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Disable",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "On",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Off",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cancel",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Show",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ask",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Don't ask",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Don't show",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Do not show",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Do not ask",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "Elicit.Intent-PlayAudio.IntentSlot-Name",
+      "promptVersion": "1.0",
+      "definitionVersion": "1.0",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Whose birthday is it"
+        },
+        {
+          "type": "PlainText",
+          "value": "For whom you want to play happy birthday song"
+        },
+        {
+          "type": "PlainText",
+          "value": "What's your name?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "version": "1.0",
+    "intents": [
+      {
+        "name": "PlayAudio",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "Name",
+            "type": "AMAZON.US_FIRST_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicit": "Elicit.Intent-PlayAudio.IntentSlot-Name"
+            }
+          },
+          {
+            "name": "FirstLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SecondLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "ThirdLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FourthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FifthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SixthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SeventhLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "EighthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "NinthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "TenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "EleventhLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "TwelfthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "ThirteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FourteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FifteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SixteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SeventeenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "EighteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "NineteenthLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "TwentiethLetter",
+            "type": "ALPHABETS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}

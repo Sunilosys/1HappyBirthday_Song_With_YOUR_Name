@@ -1,0 +1,65 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "1HappyBirthday – the original 1HappyBirthday song with a name included 10 times.",
+          "examplePhrases": [
+            "Alexa, Open One Happy Birthday",
+            "Alexa, Open One Happy Birthday and play a birthday song for Maria",
+            "Alexa, Open One Happy Birthday and sing happy birthday Maria"
+          ],
+          "keywords": [
+            "Happy",
+            "Birthday",
+            "Song",
+            "Special",
+            "Birthday",
+            "Song",
+            "Birthday",
+            "Song",
+            "With",
+            "Name",
+            "1HappyBirthday"
+          ],
+          "name": "1HappyBirthday Song With YOUR Name",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/b0c1/ac0329f0e3534298a5fa097e85c1e72a/APP_ICON?versionId=CFgegfLpufLjWGUEr1hRBSE.vkFiOBoX&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074571&Signature=yK%2FsfZnZUv1LTMjqtGpQ%2FRgbvGM%3D",
+          "description": "1HappyBirthday – the original 1HappyBirthday song with a name included 10 times.\n\nThis is the personalized 1HappyBirthday song that makes birthdays more fun. More than 100 million people have celebrated with this free song. You will laugh, you will dance and you will sing along with the 1HappyBirthday song.\n\nHOW TO USE:\n\nEnable One Happy Birthday Skill:\n- Click on Enable Skill button on this page\n\nHow to play the 1HappyBirthday song\n1. Single Interaction:\nYou can say:\nAlexa, Open One Happy Birthday and play a birthday song for Maria *\nAlexa, Open One Happy Birthday and sing Happy Birthday Maria *\n*(instead of Maria, say the first name of the person for whom you want to play happy birthday song)\n\n2. Conversational:\nLaunch by saying “Open One Happy Birthday” or “Start One Happy Birthday”.\n\nYou will be greeted with a welcome prompt. Then you can say \"Play a birthday song for Maria\" or \"Sing happy birthday Maria\".\n\nIf you don't provide the name of the person then you will be asked \"Whose Birthday is it?\" This also happens if Alexa does not understand you.\n\n3. Confirming the spelling of the name (For Single Interaction and Conversational):\n\nOnce you provide the name of the person, you will asked to confirm the spelling of the name. \n\nIf you confirm the name, then the 1HappyBirthday Song with that name will be played. \n\nIf you think Alexa didn't get your name right, you can answer \"No\" for confirmation dialog. You will be asked to spell out the name.\n\nYou can spell out each letter in the name. For example, \"M A R I A\"\n\n4. If the 1HappyBirthday Song with your name is not available, then you can request a song by filling out the form at http://www.1happybirthday.com/request.php\n\n1HappyBirthday Song Lyrics - Song will be personalized with your name\n\nHappy Birthday, MARIA\nHappy Happy Birthday \nHappy Birthday, MARIA\nHappy Birthday.\nHappy B-day, MARIA\nHappy Happy B-day \nHappy B-day, MARIA\nOh yeah.\nFeliz cumpleaños, MARIA\nMy dog says woof woof to you MARIA\nMy dog says arooooou!\nMARIA, Birthday, Birthday MARIA\nHappy B-Day, Happy B-Day, MARIA\nFeliz cumpleaños, MARIA\n\nSETTINGS:\n\nNote : By default - Your setting to confirm the name before playing the song is ON. \n\nHow to change your confirmation dialog setting:\nsay \"Go to settings\" after the welcome greeting. Alexa will tell you your current setting. Alternatively, you can access the settings by saying \"Open One Happy Birthday and Go to Settings\".\n\nYou can turn the dialog ON/OFF by saying:\n\n\"Turn OFF the confirmation dialog\" \n\"Turn ON the confirmation dialog\"\n\nFEEDBACK AND SUPPORT:\n\nVisit us on the web http://www.1happybirthday.com to download the song or request a song for your name.\n\nI hope you'll love the 1HappyBirthday Song. If you have a suggestion on how to improve this Alexa skill, please let me know at happy@1happybirthday.com . There are 34,000 songs, so I need your help.\n\nWe'd love to hear from you! If you have questions, comments, or feedback, please e-mail us at happy@1happybirthday.com.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1c0a/2281e757456143dc958b723f8afec6c1/APP_ICON_LARGE?versionId=O5HREUAJxMB2CTyt3UTsIFEzCrG16eoc&AWSAccessKeyId=AKIAIEYXX6DHY7O4XWMA&Expires=1532074571&Signature=tofTqVYcnu%2FdDbIPc2fuyc3QC1A%3D"
+        },
+        "en-IN": {
+          "name": "1HappyBirthday Song With YOUR Name"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions required",
+      "category": "MUSIC_AND_AUDIO_ACCESSORIES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./lambda/us-east-1_HappyBirthdayByName"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://www.1happybirthday.com/privacy.php"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": true
+    }
+  }
+}
